@@ -1,0 +1,43 @@
+/*Styles*/
+/*body background*/
+.bg {
+    background-color: black;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: center;
+}
+/*Centrar body*/
+.center-body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Contenedor*/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*Titulo web*/
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hall{
+    color: #ff0000;
+    font-size: 50px;
+    margin: 10px;
+    border: 6px solid #000000;
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+/*Contenido juego*/
+.description {
+    
+}
