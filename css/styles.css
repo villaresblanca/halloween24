@@ -4,7 +4,7 @@ body {
     background-color: black;
     background-image: url("../img/bg6.png");
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position: center;
     background-blend-mode: hard-light;
 }
 /* Centrar body */
@@ -49,6 +49,7 @@ body {
     /* Estilos solo para dispositivos móviles en orientación vertical */
     body {
         background-size: 200px 100px;
+        background-position: none;
     }
 }
   
