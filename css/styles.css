@@ -48,17 +48,7 @@
 /* Responsive */
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
     /* Estilos solo para dispositivos móviles en orientación vertical */
-    body {
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        background-image: url("../img/bg6.png");
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-blend-mode: hard-light;
-    }
+    
 }
   
 /* Font */
