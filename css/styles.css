@@ -46,10 +46,7 @@ body {
 /* Responsive */
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
     /* Estilos solo para dispositivos móviles en orientación vertical */
-    body {
-        background-size: contain;
-        background-position: center;
-    }
+    
 }
   
 /* Font */
