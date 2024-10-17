@@ -5,7 +5,6 @@ body {
     background-image: url("../img/bg6.png");
     background-repeat: no-repeat;
     background-position-x: center;
-    background-blend-mode: hard-light;
 }
 /* Centrar body */
 .center-body {
