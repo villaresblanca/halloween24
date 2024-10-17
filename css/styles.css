@@ -4,8 +4,9 @@
     background-color: black;
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 50%;
     background-position-x: center;
+    background-blend-mode: hard-light;
 }
 /*Centrar body*/
 .center-body {
@@ -32,12 +33,75 @@
     color: #ff0000;
     font-size: 50px;
     margin: 10px;
-    border: 6px solid #000000;
-    border-radius: 10px;
+    /*border: 0px solid #000000;
+    border-radius: 10px;*/
     text-shadow: 2px 2px 2px #000000;
 }
 
 /*Contenido juego*/
-.description {
-    
+.description1 {
+    color: #ffffff;
+
 }
+
+/*Font*/
+.cormorant-garamond-light {
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 300;
+        font-style: normal;
+}
+
+.cormorant-garamond-regular {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 400;
+      font-style: normal;
+}
+
+.cormorant-garamond-medium {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 500;
+      font-style: normal;
+}
+
+.cormorant-garamond-semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-garamond-bold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-garamond-light-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cormorant-garamond-regular-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cormorant-garamond-medium-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.cormorant-garamond-semibold-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cormorant-garamond-bold-italic {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+  
