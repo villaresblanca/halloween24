@@ -49,7 +49,7 @@
     /* Estilos solo para dispositivos móviles en orientación vertical */
     body {
         margin: 0;
-        display: flex;
+        display:block;
         justify-content: center;
         align-items: center;
         background-size: 10%;
