@@ -4,7 +4,7 @@ body {
     background-color: black;
     background-image: url("../img/bg6.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: center;
     background-blend-mode: hard-light;
 }
 /* Centrar body */
