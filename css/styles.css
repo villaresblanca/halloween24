@@ -22,7 +22,7 @@ body {
     text-align: center;
 }
 /*Titulo web*/
-.hall{
+.titulo{
     color: #ff0000;
     font-size: 50px;
     margin: 10px;
@@ -32,7 +32,7 @@ body {
 }
 
 /*Contenido juego*/
-.div2 {
+.prueba-bg {
     background-color: #00000067;
     border-radius: 10px;
     padding: 10px;
@@ -45,12 +45,18 @@ body {
 }
 
 
-/* Responsive */
+/*Responsive*/
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
     /* dispositivos móviles en orientación vertical */
 }
   
-/* Font */
+/*Font*/
+.creepster-regular {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .cormorant-garamond-light {
         font-family: "Cormorant Garamond", serif;
         font-weight: 300;
