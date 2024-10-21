@@ -34,6 +34,9 @@ body {
 /* Contenido juego */
 .div2 {
     background-color: #00000067;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffffff
 
 }
 .description1 {
