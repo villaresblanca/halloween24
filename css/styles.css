@@ -1,19 +1,19 @@
 /*Styles*/
-/* body background */
+/*body background*/
 body {
     background-color: black;
     background-image: url("../img/bg6.png");
     background-repeat: no-repeat;
     background-position-x: center;
 }
-/* Centrar body */
+/*Centrar body*/
 .center-body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-/* Contenedor */
+/*Contenedor*/
 .container {
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ body {
     align-items: center;
     text-align: center;
 }
-/* Titulo web */
+/*Titulo web*/
 .hall{
     color: #ff0000;
     font-size: 50px;
@@ -31,7 +31,7 @@ body {
     text-shadow: 2px 2px 2px #000000;
 }
 
-/* Contenido juego */
+/*Contenido juego*/
 .div2 {
     background-color: #00000067;
     border-radius: 10px;
@@ -47,7 +47,7 @@ body {
 
 /* Responsive */
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
-    /* Estilos solo para dispositivos móviles en orientación vertical */
+    /* dispositivos móviles en orientación vertical */
 }
   
 /* Font */
