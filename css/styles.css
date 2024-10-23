@@ -58,12 +58,21 @@ body {
   background-color: #000000b0; /* El fondo oscuro tras la imagen*/
 }
 
-  /* La imagen dentro del modal*/
+  /* La imagen dentro del modal: inicia pequeña */
 .jub-modal-content {
-    margin: auto;
-    display: block;
-    max-width: 80%; /* Tamaño max de la imagen */
-    max-height: 80%;
+  margin: auto;
+  display: block;
+  max-width: 80%; /* Tamaño max de la imagen */
+  max-height: 80%;
+  transform: scale(0); /* Comienza pequeña la imagen */
+  opacity: 0; /* Comienza transparente */
+  transition: transform 0.4s ease, opacity 0.4s ease; /* Transición de zoom y opacidad */
+}
+
+  /* Cuando el modal está visible, la imagen se expande */
+.HJ-modal.show  .jub-modal-content {
+  transform: scale(1); /* Aumenta al tamaño normal */
+  opacity: 1; /* Se hace completamente visible */
 }
 
   /* La "X" de cierre */
@@ -85,12 +94,12 @@ body {
   animation-duration: 0.65;
 }
 @-webkit-keyframes zoom {
-  from { -webkit-transform: scale(0);}
-  to { -webkit-transform: scale(1);}
+  from {-webkit-transform: scale(0);}
+  to {-webkit-transform: scale(1);}
 }
 @keyframes zoom {
-  from { transform: scale(0);}
-  to { transform: scale(1);}
+  from {transform: scale(0);}
+  to {transform: scale(1);}
 }
 
 /*Responsive*/
