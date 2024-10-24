@@ -67,6 +67,7 @@ body {
   transform: scale(0); /* Comienza pequeña la imagen */
   opacity: 0; /* Comienza transparente */
   transition: transform 0.4s ease, opacity 0.4s ease; /* Transición de zoom y opacidad */
+  transform-origin: top left; /* El origen del zoomes la esquina superior izquierda */
 }
 
   /* Cuando el modal está visible, la imagen se expande */
